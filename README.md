@@ -31,7 +31,7 @@ The `minimumProfit` variable can be changed in `main.go`
 
 ## Tests
 
-Install dependencies with `npm install`
+Install dependencies from the `hardhat` directory with `npm install`
 
 You will need a `.env` located at `hardhat/.env` containing your Alchemy key for an archive Ethereum node, a sample `.env` file is provided at `hardhat/.env.sample`
 
