@@ -15,7 +15,7 @@ Because of the passed calldata, the pair's `swap` method executes a flash swap b
 
 First edit the assert statment at the top of the uniswapV2Call method in `F.sol` to allow for the correct DEXes to call this method.
 
-Deploy `F.sol`
+Deploy `F.sol` and put it's deployed address as the `SC_ADDR` constant in `main.go`
 
 You will need a `.env` file containing your EOA's private key. A sample is provided at `.env.sample`
 
